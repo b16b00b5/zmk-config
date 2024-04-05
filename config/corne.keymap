@@ -211,10 +211,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q              &kp W                  &kp F                      &kp P                    &kp B         &kp J      &kp L                      &kp U                        &kp Y                   &mt DOUBLE_QUOTES SINGLE_QUOTE  &none
-&none  &left_hand LGUI A  &left_hand LEFT_ALT R  &left_hand LEFT_CONTROL S  &left_hand LEFT_SHIFT T  &kp G         &kp M      &right_hand RIGHT_SHIFT N  &right_hand RIGHT_CONTROL E  &right_hand LEFT_ALT I  &right_hand RIGHT_GUI O         &none
-&none  &kp Z              &kp X                  &kp C                      &kp D                    &kp V         &kp K      &kp H                      &mt SEMI COMMA               &mt COLON PERIOD        &mt QUESTION EXCLAMATION        &none
-                                                 &none                      &mt LC(LS(LALT)) SPACE   &sk LSHIFT    &sk RCTRL  &to 2                      &none
+&none  &kp Q  &kp W  &kp F                  &kp P                   &kp B         &kp J      &kp L                             &kp U                   &kp Y             &mt DOUBLE_QUOTES SINGLE_QUOTE  &none
+&none  &kp A  &kp R  &left_hand LEFT_ALT S  &left_hand LEFT_GUI T   &kp G         &kp M      &right_hand RIGHT_SHIFT LEFT_GUI  &right_hand LEFT_ALT E  &kp I             &kp O                           &none
+&none  &kp Z  &kp X  &kp C                  &kp D                   &kp V         &kp K      &kp H                             &mt SEMI COMMA          &mt COLON PERIOD  &mt QUESTION EXCLAMATION        &none
+                     &none                  &mt LC(LS(LALT)) SPACE  &sk LSHIFT    &sk RCTRL  &to 2                             &none
             >;
 
             label = "Colemak";
