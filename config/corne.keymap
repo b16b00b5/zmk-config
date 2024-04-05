@@ -222,10 +222,10 @@
 
         Symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp CARET         &kp AMPERSAND         &kp ASTERISK           &kp SEMICOLON      &kp BACKSPACE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp BACKSLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE           &kp RETURN     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans         &trans
-                        &trans  &trans  &trans    &trans            &trans                &trans
+&trans  &kp ESCAPE  &kp AT     &kp HASH  &kp DOLLAR  &kp PERCENT          &kp CARET         &kp AMPERSAND         &kp ASTERISK           &kp SEMICOLON      &kp BACKSPACE  &trans
+&trans  &kp TAB     &kp EQUAL  &trans    &trans      &kp APOS             &kp BACKSLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE           &kp RETURN     &trans
+&trans  &kp TILDE   &trans     &trans    &trans      &kp DOUBLE_QUOTES    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &to 2          &trans
+                               &trans    &to 0       &kp LSHIFT           &kp LEFT_ALT      &to 3                 &trans
             >;
 
             label = "Symbols";
