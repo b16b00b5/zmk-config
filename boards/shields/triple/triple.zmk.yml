@@ -1,0 +1,14 @@
+file_format: "1"
+id: 3ple
+name: 3ple Temper
+type: shield
+url: https://github.com/raeedcho/chocofi-temper
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+siblings:
+  - triple_left
+  - triple_right
