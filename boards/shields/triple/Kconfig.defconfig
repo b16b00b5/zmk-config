@@ -24,7 +24,4 @@ if SHIELD_TRIPLE_LEFT || SHIELD_TRIPLE_RIGHT || SHIELD_TRIPLE_CENTER
 config ZMK_SPLIT
     default y
 
-config ZMK_SPLIT_BLE
-    default y
-
 endif
