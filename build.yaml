@@ -19,6 +19,8 @@
 ---
 include:
   - board: nice_nano_v2
+    shield: triple_center
+  - board: nice_nano_v2
     shield: triple_left
   - board: nice_nano_v2
     shield: triple_right

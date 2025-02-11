@@ -6,3 +6,7 @@ config SHIELD_TRIPLE_LEFT
 
 config SHIELD_TRIPLE_RIGHT
     def_bool $(shields_list_contains,triple_right)
+
+config SHIELD_TRIPLE_CENTER
+    def_bool $(shields_list_contains,triple_center)
+

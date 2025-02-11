@@ -1,14 +1,14 @@
-if SHIELD_TRIPLE_LEFT
+if SHIELD_TRIPLE_CENTER
 
 config ZMK_KEYBOARD_NAME
-    default "Triple"
+    default "3ple"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_TRIPLE_LEFT || SHIELD_TRIPLE_RIGHT
+if SHIELD_TRIPLE_LEFT || SHIELD_TRIPLE_RIGHT || SHIELD_TRIPLE_CENTER
 
 config ZMK_SPLIT
     default y
