@@ -1,0 +1,11 @@
+file_format: "1"
+id: trackball
+name: TrackBall Central
+type: shield
+url: https://github.com/b16b00b5/zmk-config
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - trackball
