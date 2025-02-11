@@ -19,10 +19,16 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: ble_dongle
+    shield: enki42_left
   - board: nice_nano_v2
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-    shield: temper_left
+    shield: enki42_right
   - board: nice_nano_v2
-    shield: temper_right
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    shield: enki42_dongle
+  # - board: nice_nano_v2
+  #   shield: ble_dongle
+  # - board: nice_nano_v2
+  #   cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  #   shield: temper_left
+  # - board: nice_nano_v2
+  #   shield: temper_right
+  #   cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
