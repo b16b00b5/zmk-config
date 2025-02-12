@@ -213,7 +213,7 @@
 &left_hand LGUI A  &left_hand LEFT_ALT R  &left_hand LEFT_CONTROL S     &left_hand LEFT_SHIFT T  &kp G        &kp M                 &right_hand RIGHT_SHIFT N  &right_hand RIGHT_CONTROL E  &right_hand LEFT_ALT I  &right_hand RIGHT_GUI O
 &kp Z              &kp X                  &kp C                         &kp D                    &kp V        &kp K                 &kp H                      &mt SEMI COMMA               &mt COLON PERIOD        &mt QUESTION EXCLAMATION
                                                  &sticky_capital_or_caps_lock  &lt 2 SPACE              &lt 3 TAB    &mt LEFT_SHIFT ENTER  &kp BACKSPACE &kp RIGHT_ALT
-&kp NUMBER_0    &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4 &kp NUMBER_5 
+&kp NUMBER_0    &kp NUMBER_1    &kp NUMBER_2
             >;
 
             label = "Colemak";
