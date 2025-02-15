@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/badjeff
     - name: cyboard
       url-base: https://github.com/Cyboard-DigitalTailor
+    - name: b16b00b5
+      url-base: https://github.com/b16b00b5
 
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
@@ -15,8 +17,8 @@ manifest:
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: cyboard
-      revision: startup_optimization
+      remote: b16b00b5
+      revision: pmw3360
       # revision: main
   self:
     path: config
