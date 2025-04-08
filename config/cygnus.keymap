@@ -216,7 +216,7 @@
 
         Qwerty {
             bindings = <
-&none  &none  &kp W  &kp E  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &kp A  &kp S  &kp D  &kp E  &kp H  &kp J  &kp K  &kp L  &right_hand RIGHT_GUI SEMICOLON  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &sticky_capital_or_caps_lock  &lt 2 SPACE  &lt 3 TAB  &mt LEFT_SHIFT ENTER  &kp BACKSPACE  &kp LCTRL
+&none  &none  &kp W  &kp E  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &kp A  &kp S  &kp D  &kp F  &kp H  &kp J  &kp K  &kp L  &right_hand RIGHT_GUI SEMICOLON  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &sticky_capital_or_caps_lock  &lt 6 SPACE  &lt 3 TAB  &mt LEFT_SHIFT ENTER  &kp BACKSPACE  &kp LCTRL
             >;
 
             label = "QWERTY";
@@ -264,6 +264,12 @@
             >;
 
             label = "BLE";
+        };
+
+        left_numpad {
+            bindings = <
+&trans  &kp N7  &kp N8  &kp N9  &trans  &trans  &trans  &trans  &trans  &trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2  &kp N3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 
